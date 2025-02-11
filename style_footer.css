@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  top: 560px;
+  height: 70px;
+  width: 360px;
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  background-color: bisque;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
