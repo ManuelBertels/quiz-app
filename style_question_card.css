@@ -6,6 +6,7 @@
   width: 360px;
   background-color: rgb(236, 167, 18);
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -37,4 +38,9 @@
 
 .css {
   left: 130px;
+}
+
+.card2 {
+  position: absolute;
+  top: 300px;
 }
