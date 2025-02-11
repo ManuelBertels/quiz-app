@@ -54,3 +54,9 @@
   position: absolute;
   top: 725px;
 }
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+}
