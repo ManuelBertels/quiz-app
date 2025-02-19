@@ -38,6 +38,10 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   position: relative;
   top: 500px;
   left: 40px;
