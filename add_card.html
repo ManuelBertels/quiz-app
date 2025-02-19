@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"></link>
-    <sript src="add_card.js" defer></sript>
+    <script src="add_card.js" defer></script>
     <title>Quiz App</title>
 
 </head>
@@ -13,15 +13,17 @@
 <div class="title">Quiz App</div>
 
 
-<form class="form" id="form" data-js="form">
+<form class="form" data-js="form">
 <label class="label_frage" for="frage">frage</label>
 <textarea class="frage" name="frage" id="frage" data-js="frage"></textarea>
 <label class="label_antwort" for="antwort">antwort</label>
 <textarea class="antwort" name="antwort" id="antwort" data-js="antwort"></textarea>
-<label class="label_text" for="text">input</label>
-<input class="text" type="text" name="text"></input>
-<button class="submit" type="submit" name="submit">submit</button>
+<label class="label_text" for="text">#tag</label>
+<input class="text" type="text" id="text" name="text"></input>
+<button type="submit">submit</button>
 </form>
+
+<section class="section" data-js="section"></section>
 
 
 <div class="footer">
