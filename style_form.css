@@ -1,6 +1,43 @@
-form {
+.form {
   display: flex;
   flex-direction: column;
-  position: relative;
+  align-items: center;
+  position: absolute;
   top: 150px;
+  left: 60px;
+}
+
+.frage {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 250px;
+}
+
+.antwort {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 250px;
+}
+
+.submit {
+  height: 25px;
+  width: 100px;
+}
+
+.text {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 250px;
+}
+
+.label_frage {
+  font-size: 20px;
+}
+
+.label_antwort {
+  font-size: 20px;
+}
+
+.label_text {
+  font-size: 20px;
 }
