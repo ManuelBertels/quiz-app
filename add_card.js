@@ -22,17 +22,24 @@ form.addEventListener("submit", (event) => {
   const button_form = document.createElement("button");
   button_form.textContent = "show answer";
   button_form.classList.add("button_form");
+  button_form.id = "button_form";
   container.appendChild(button_form);
 
   const antwort_form = document.createElement("div");
-  antwort_form.textContent = `${formElements.antwort.value}`;
+
   antwort_form.classList.add("antwort_form");
   container.appendChild(antwort_form);
 
   const tag_form = document.createElement("div");
-  tag_form.textContent = "###";
+  tag_form.textContent = `${formElements.text.value}`;
   tag_form.classList.add("tag_form");
   container.appendChild(tag_form);
 
   card.appendChild(container);
+
+  let button = document.querySelector("#button_form");
+  button.addEventListener("click", () => {
+    antwort_form.textContent = `${formElements.antwort.value}`;
+    button_form.textContent = "hide answer";
+  });
 });

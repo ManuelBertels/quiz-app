@@ -12,7 +12,7 @@
   width: 357px;
   border: solid black 1px;
   background-color: bisque;
-  margin-bottom: 5px;
+  margin: 8px;
 }
 
 .button_form {
@@ -25,11 +25,11 @@
 }
 
 .tag_form {
-  width: 40px;
+  width: 28px;
   border: solid black 1px;
   padding: 3px;
   background-color: rgb(209, 176, 240);
-  margin-top: 35px;
+  margin-top: 25px;
   margin-left: 5px;
 }
 
@@ -44,7 +44,6 @@
 }
 
 .zuweisung {
-  position: relative;
-  top: 100px;
+  margin-top: 150px;
   height: 170px;
 }
