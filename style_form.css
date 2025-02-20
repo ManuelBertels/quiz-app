@@ -3,51 +3,49 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 60px;
 }
 
-.frage {
-  margin-bottom: 20px;
-  height: 50px;
-  width: 250px;
-}
-
-.antwort {
-  margin-bottom: 20px;
-  height: 50px;
-  width: 250px;
-}
-
-.text {
-  margin-bottom: 20px;
-  height: 50px;
-  width: 250px;
-}
-
-.label_frage {
-  font-size: 20px;
-}
-
-.label_antwort {
-  font-size: 20px;
-}
-
-.label_text {
-  font-size: 20px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+.card_form {
   position: relative;
-  top: 500px;
-  left: 40px;
-  height: 100px;
-  width: 250px;
-  background-color: beige;
-  border: solid black 2px;
-  margin: 10px;
+  height: 170px;
+  width: 357px;
+  border: solid black 1px;
+  background-color: bisque;
+  margin-bottom: 5px;
+}
+
+.button_form {
+  position: absolute;
+  width: 100px;
+  left: 130px;
+  top: 100px;
+}
+
+.icon_form {
+  position: absolute;
+  top: -8px;
+  right: 10px;
+}
+
+.tag_form {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  border: solid black 1px;
+  padding: 3px;
+  background-color: rgb(209, 176, 240);
+}
+
+.frage_form {
+  position: absolute;
+  left: 160px;
+  top: 50px;
+}
+
+.zuweisung {
+  position: relative;
+  top: 280px;
+  height: 170px;
 }
